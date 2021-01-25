@@ -1,0 +1,62 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "http://1.wazf.top/10/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "http://1.wazf.top/10/static/picture/music_note_big.png",
+                    "path": "images/music_note_big.png"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/js/jquery-2.0.3.min.js",
+                    "path": "js/jquery-2.0.3.min.js"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/js/typed.min.js",
+                    "path": "js/typed.min.js"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/js/support_upload_as.js",
+                    "path": "js/support_upload_as.js"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/js/start_intersect.js",
+                    "path": "js/start_intersect.js"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/js/jweixin-1.6.0.js",
+                    "path": "js/jweixin-1.6.0.js"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/js/theme_common.js",
+                    "path": "js/theme_common.js"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/css/theme_public_btn.css",
+                    "path": "css/theme_public_btn.css"
+                },
+                {
+                    "url": "http://1.wazf.top/10/static/css/start_intersect.css",
+                    "path": "css/start_intersect.css",
+                    "children": [
+                        {
+                            "url": "http://1.wazf.top/10/static/images/open_letter.jpg",
+                            "path": "images/open_letter.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
